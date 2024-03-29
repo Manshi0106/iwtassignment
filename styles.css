@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+   }
+   
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   }
+   
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+   }
+   
+   header a {
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   header li {
+    display: inline;
+    padding: 0 1rem;
+   }
+   
+   section {
+    padding: 10rem 0;
+   }
+   
+   section h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+   }
+   
+   section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+   }
+   
+   section a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+   }
+   
+   section a:hover {
+    background-color: #555;
+   }
+   
+   section ul {
+    list-style: none;
+   }
+   
+   section li {
+    margin-bottom: 1rem;
+   }
+   
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+   }
+   
+   footer p {
+    text-align: center;
+    margin-bottom: 0;
+   }
+   
+   footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+   }
+   
+   .socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+   }
+   
+   .socicon {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+   }
+   
+   .socicon:hover {
+    filter: brightness(1.5);
+   }
+   
+   #contact-form {
+    margin: 0 auto;
+    width: 50%;
+   }
+   
+   #contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+   }
+   
+   #contact-form input,
+   #contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+   }
+   
+   #contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+   }
+   
+   #contact-form button:hover {
+    background-color: #555;
+   }
+   
+   @media screen and (max-width: 600px) {
+    header {
+    padding: 0.5rem;
+    }
+   
+    section {
+    padding: 5rem 0;
+    }
+   
+    section h2 {
+    font-size: 1.5rem;
+    }
+   
+    section a {
+    padding: 0.5rem;
+    }
+   
+    footer {
+    padding: 0.5rem;
+    }
+   
+    footer p {
+    font-size: 0.8rem;
+    }
+   
+    .socials {
+    flex-direction: column;
+    }
+   
+    .socicon {
+    margin-bottom: 1rem;
+    }
+   }
